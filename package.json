@@ -1,0 +1,27 @@
+{
+  "name": "mi-portafolio",
+  "version": "1.0.0",
+  "description": "My profesional portfolio build in React.  This is to show my projects and skills as a developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbugs16/mi-portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrbugs16/mi-portafolio/issues"
+  },
+  "homepage": "https://github.com/mrbugs16/mi-portafolio#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-scripts": "^3.4.4"
+  }
+}
