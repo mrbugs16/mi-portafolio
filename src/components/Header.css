@@ -1,0 +1,46 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #0066cc;
+  }
+  
+  .header nav ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header nav ul li a {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav ul li a:hover {
+    color: #0066cc;
+  }
+  
+  @media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .header nav ul {
+      gap: 20px;
+    }
+  }
